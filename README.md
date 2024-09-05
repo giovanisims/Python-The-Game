@@ -1,7 +1,5 @@
 # Python The Game!
 
-#### Video Demo:  https://youtu.be/yCRqJyaxxfg
-
 #### Description:
 This is the classic "Snake" game implemented with Python and the Pygame library. You should use the arrow keys to move, if you hit the border of the window the snake will wrap around to the other side. Your goal is to make the snake to eat the food that appears randomly on the screen, for each piece of food you eat you will get one point and the snake will grow, avoid hitting your own body or you'll lose the game. Once you lose a game over screen will pop up with your score.
 
