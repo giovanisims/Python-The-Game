@@ -1,5 +1,6 @@
 import pygame
 import random
+import os
 
 
 class Screen:
@@ -225,6 +226,10 @@ class Game:
 
 def main():
     """Initializes the game and runs the main game loop."""
+
+    # Set the working directory to the directory of the script  
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
     pygame.init()
     pygame.font.init()
     pygame.mixer.init()
