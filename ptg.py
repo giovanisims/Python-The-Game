@@ -238,7 +238,10 @@ def main():
     game.start_game_screen()
 
     pygame.mixer.music.load("assets/background-music-Pixel Dreams.mp3")
+    pygame.mixer.music.set_volume(0.02)
     pygame.mixer.music.play(-1)
+
+    game.eat_sound.set_volume(0.05)
 
     while running:
         screen.fill()
